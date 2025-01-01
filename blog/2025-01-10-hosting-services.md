@@ -5,10 +5,8 @@ title: "Hosting Services on your Home Lab"
 tags: [self-hosted]
 ---
 
-
-
 Setting up a home lab is a great way to experiment with different technologies, host personal services, and build a better understanding of system administration. Once your home server is up and running, the next step is deciding which services you want to host.
-
+<!-- truncate -->
 In this post, we’ll explore different methods of hosting services on your home lab and provide examples of useful services you can run, categorized by their use case.
 
 ## Methods of Hosting Services
