@@ -1,7 +1,7 @@
 backend:
-  name: github
+  name: Viraj-S45
   branch: main
-  repo: <your-github>/my-website
+  repo: Viraj-S45/unidocs
 
 # These lines should *not* be indented
 media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
