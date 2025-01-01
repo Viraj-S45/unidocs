@@ -25,7 +25,8 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.6.3",
-    "@docusaurus/types": "3.6.3"
+    "@docusaurus/types": "3.6.3",
+    "netlify-cli": "^17.38.1"
   },
   "browserslist": {
     "production": [
