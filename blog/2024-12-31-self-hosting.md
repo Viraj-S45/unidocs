@@ -59,4 +59,4 @@ Self-hosting can be great for:
 
 ## Getting Started
 
-If you're new to self-hosting, the best way to start is with a small, simple service. I recommend checking out my **[documentation](link-to-your-documentation)** on setting up self-hosted services for step-by-step guides, tips, and installation instructions.
+If you're new to self-hosting, the best way to start is with a small, simple service. I recommend checking out my **[documentation](#)** on setting up self-hosted services for step-by-step guides, tips, and installation instructions.

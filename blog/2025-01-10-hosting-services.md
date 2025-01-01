@@ -99,6 +99,6 @@ Hosting different services on your home lab gives you the flexibility to experim
 
 By choosing the right methods (bare-metal, virtualization, or containerization) and services for your needs, you can create a powerful and cost-effective home server setup. The best part? You have full control over everything!
 
-If you're ready to start hosting your own services, check out my **[documentation](link-to-your-documentation)** for more detailed, step-by-step guides.
+If you're ready to start hosting your own services, check out my **[documentation](#)** for more detailed, step-by-step guides.
 
 ---

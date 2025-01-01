@@ -88,7 +88,7 @@ Building a home server or home lab can be both a fun and rewarding project. The 
 
 By considering factors like power consumption, storage, and security, you’ll be well on your way to creating a robust and efficient home server setup.
 
-If you’re ready to dive into the world of self-hosting, check out my **[documentation](link-to-your-documentation)** for step-by-step guides on how to get started with setting up your own server.
+If you’re ready to dive into the world of self-hosting, check out my **[documentation](#)** for step-by-step guides on how to get started with setting up your own server.
 
 
 
