@@ -1,6 +1,6 @@
 ---
 title: First Blog Post
-slug: first-blog-post
+slug: first-blog1-post
 tags:
   - foo
   - bar
