@@ -11,11 +11,14 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Unidocs',
-  tagline: 'Comprehensive docs for customizing your configurations.',
+  // tagline: 'Comprehensive docs for customizing your configurations.',
+  tagline: 'Explore my configurations and setups. Learn how I customize everything from Linux to Windows and more.',
   favicon: 'img/logo.png',
-
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap',
+  ],
   // Set the production url of your site here
-  url: 'https://viraj.top',
+  url: 'https://virajs.top',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -85,11 +88,7 @@ const config = {
           srcDark: 'img/logo-yellow.png',
         },
         items: [
-          // {
-          //   label: 'About',
-          //   to: 'markdown-page',
-          //   position: 'left',
-          // },
+
           {
             
             type: 'docSidebar',
@@ -113,59 +112,59 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/Viraj-S45/unidocs',
-              },
-              {
-                label: 'Linked in',
-                href: 'https://www.linkedin.com/in/viraj-shirodkar',
-              },
-              // {
-              //   label: 'Stack Overflow',
-              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              // },
-              // {
-              //   label: 'Discord',
-              //   href: 'https://discordapp.com/invite/docusaurus',
-              // },
-              // {
-              //   label: 'X',
-              //   href: 'https://x.com/docusaurus',
-              // },
-            ],
-          },
-          {
-            title: 'Explore More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'MIT License',
-                to: '#',
-              },
-              // {
-              //   label: 'GitHub',
-              //   href: 'https://github.com/facebook/docusaurus',
-              // },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: 'Docs',
+        //     items: [
+        //       {
+        //         label: 'Tutorial',
+        //         to: '/docs/intro',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'Community',
+        //     items: [
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/Viraj-S45/unidocs',
+        //       },
+        //       {
+        //         label: 'Linked in',
+        //         href: 'https://www.linkedin.com/in/viraj-shirodkar',
+        //       },
+        //       // {
+        //       //   label: 'Stack Overflow',
+        //       //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //       // },
+        //       // {
+        //       //   label: 'Discord',
+        //       //   href: 'https://discordapp.com/invite/docusaurus',
+        //       // },
+        //       // {
+        //       //   label: 'X',
+        //       //   href: 'https://x.com/docusaurus',
+        //       // },
+        //     ],
+        //   },
+        //   {
+        //     title: 'Explore More',
+        //     items: [
+        //       {
+        //         label: 'Blog',
+        //         to: '/blog',
+        //       },
+        //       {
+        //         label: 'MIT License',
+        //         to: '#',
+        //       },
+        //       // {
+        //       //   label: 'GitHub',
+        //       //   href: 'https://github.com/facebook/docusaurus',
+        //       // },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} Uni Docs.`,
       },
       prism: {

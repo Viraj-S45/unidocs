@@ -3,6 +3,24 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+ 
+ html {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #282a2e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+
 code {
   border: none;
 }
@@ -61,7 +79,7 @@ html[data-theme="dark"] .header-github-link::before {
   width: 24px;
   height: 24px;
   display: flex;
-  /* background: url('/static/img/linkedin.svg') no-repeat center/contain; */
+  
 }
 
 html[data-theme="dark"] .header-linkedin-link::before {
@@ -72,17 +90,46 @@ html[data-theme="dark"] .header-linkedin-link::before {
 
 /* src/css/custom.css */
 .navbar {
-  background-color: #282a2e; /* Change to your desired background color */
+  background-color: #282a2e; 
   color: #ffffff; /* Change to your desired text color */
+  font-family: 'Space Grotesk', sans-serif;
+ 
 
 }
 
 .navbar__link {
   color: #ffffff; /* Change the color of links */
+  
 }
 
 .navbar__link:hover {
   color: #f0c674; /* Hover color */
+  
 }
 
+/* Footer */
+/* Change the background and text color of the footer */
+.footer {
+  background-color: #282a2e; /* Footer background color */
+  color: #ffffff; /* Footer text color */
+  font-family: 'Space Grotesk', sans-serif;
+}
 
+/* Style the footer links */
+.footer a {
+  color: #ffffff; /* Footer link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+  color: #f0c674; /* Footer link hover color */
+}
+/* Customize the color of footer column titles */
+.footer__title {
+  color: #f0c674; /* Color for the titles */
+}
+
+/* Optional: Different color on hover (if desired) */
+.footer__title:hover {
+  color: #f0c674; /* Color when hovering over titles */
+}

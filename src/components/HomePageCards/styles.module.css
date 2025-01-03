@@ -1,0 +1,44 @@
+.card {
+    background-color: rgba(55, 59, 65, 0.5) !important; /* Transparent gray */
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+  }
+  
+  .cardContent {
+    color: #ffffff; /* Default text color */
+  }
+  
+  .cardTitle {
+    color: #ffffff; /* Title color */
+    text-decoration: none; /* Prevent underline by default */
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .cardTitle:hover {
+    color: #f0c674; /* Change color on hover */
+    text-decoration: underline; /* Only underline title */
+  }
+  
+  .cardDescription {
+    color: #ffffff; /* Keep description color as white */
+    text-decoration: none; /* No underline on description */
+  }
+  
+  .cardDescription:hover {
+    color: #ffffff; /* Ensure color remains unchanged on hover */
+  }
+  
+  /* No background color when hovering the entire card */
+  .cardActionArea:hover {
+    background-color: transparent !important;
+  }
+  
+  /* Remove background color on active click */
+  .cardActionArea:active {
+    background-color: transparent !important;
+  }
+  
+  .cardContent:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  

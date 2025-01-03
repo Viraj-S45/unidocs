@@ -1,0 +1,59 @@
+/* Ensure that font is applied to specific sections */
+.heroSection, .heroContent, .heroTitle, .heroSubtitle, .typingText {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Take full height of the viewport */
+  width: 100vw; /* Take full width of the viewport */
+  color: #ffffff; /* Default text color */
+  padding: 0; /* Remove padding */
+  position: absolute; /* Absolute positioning to cover full viewport */
+  top: 0;
+  left: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.heroContent {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px; /* Adjust spacing */
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: #d1d1d1;
+  display: inline; /* Ensure inline text layout */
+}
+
+.typingText {
+  color: #f0c674; /* Yellow color for animated text */
+  font-weight: bold;
+  display: inline-block; /* Ensure it behaves like inline-block */
+  margin-left: 5px; /* Add spacing before animation */
+  width: 150px; /* Set a fixed width matching the longest word */
+  text-align: left; /* Align text to the left within the container */
+  white-space: nowrap; /* Prevent words from wrapping */
+}
+
+/* Adjustments for responsiveness */
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+}
