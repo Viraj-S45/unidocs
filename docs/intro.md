@@ -1,6 +1,7 @@
 ---
 title: intro
 sidebar_position: 1
+draft: true
 ---
 
 # Tutorial Intro
