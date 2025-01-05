@@ -1,0 +1,102 @@
+---
+title: "Hardware Requirements"
+sidebar_position: 1
+---
+
+# Hardware Requirements for a Home Lab Server
+
+Setting up a home lab server starts with choosing the right hardware. In this guide, we’ll outline the **minimum and recommended hardware specifications**, important considerations for power and cooling, and tips on repurposing old hardware like I did in [My Home Lab Setup](#my-home-lab-server-setup).
+
+---
+
+## Minimum and Recommended Hardware Specifications
+
+When selecting hardware for your home lab, consider the type of workloads you plan to run. Here’s a quick reference:
+
+### **Minimum Requirements**  
+For lightweight workloads like running a few Docker containers or small personal projects:
+- **CPU:** Dual-core processor (e.g., Intel i3-3220 or AMD Athlon)  
+- **RAM:** 4GB  
+- **Storage:** 250GB HDD or SSD  
+- **Network:** Ethernet with stable internet access (minimum 10 Mbps)  
+
+### **Recommended Requirements**  
+For more demanding workloads, multiple services, or virtualization:
+- **CPU:** Quad-core processor or higher (e.g., Intel i5-10400 or AMD Ryzen 5 5600G)  
+- **RAM:** 8GB to 16GB (expandable)  
+- **Storage:**  
+  - 500GB SSD for fast access to OS and critical services  
+  - 1TB HDD for data storage  
+- **Network:** Ethernet with 24x7 uptime and internet speeds of 30 Mbps or higher  
+
+> *If you're planning to run resource-heavy services like media servers (e.g., Jellyfin or Plex), aim for a CPU with hardware transcoding capabilities.*
+
+---
+
+## CPU, RAM, and Storage Considerations
+
+### **CPU**  
+- Focus on multi-core processors to handle multiple services efficiently.  
+- Opt for processors with **low power consumption** (e.g., Intel Core i5 or AMD Ryzen series).  
+
+### **RAM**  
+- 4GB is the bare minimum for basic tasks, but for running Docker containers or virtualization, **8GB or more** is strongly recommended.  
+- Check if your motherboard supports RAM upgrades for future scalability.  
+
+### **Storage**  
+- SSDs provide better performance for OS and applications compared to HDDs.  
+- Consider having **separate drives** for system files and data storage to improve reliability.  
+
+---
+
+## Power and Cooling Requirements
+
+### **Power**
+- Ensure your power supply has sufficient wattage for your components. For older hardware, a **300W PSU** is often sufficient.  
+- Use a **UPS (Uninterruptible Power Supply)** to protect your server from sudden power outages.  
+
+### **Cooling**
+- Proper cooling is critical to ensure system stability and longevity.  
+- Clean out dust regularly and ensure good airflow by organizing cables.  
+- If your server is running 24x7, consider using **low-noise case fans** or upgrading to a larger, quieter CPU cooler.
+
+---
+
+## Repurposing Old Hardware
+
+A great way to get started with a home lab server is by **repurposing old hardware**. Here's how I did it in [My Home Lab Setup](#my-home-lab-server-setup):
+
+- **CPU:** Intel i3-3220 (4 cores) @ 3.3GHz  
+- **RAM:** 6GB  
+- **Storage:** A mix of 1TB HDD and 500GB SSD for performance and capacity.  
+- **Network:** Ethernet with 40 Mbps speed for reliable connectivity.  
+
+This setup, while modest, allows me to run **17 Docker containers** efficiently, including tools like Nextcloud, Jellyfin, and Portainer.
+
+> **Tip:** If you’re upgrading your old PC, prioritize adding more RAM and replacing the HDD with an SSD. These upgrades can dramatically improve performance.
+
+---
+
+## Additional Recommendations
+
+- **Test Your Hardware**  
+  Before deploying your server, run stress tests to ensure stability. Tools like `memtest86` and CPU benchmarking software can help identify potential bottlenecks.  
+
+- **Future-Proofing**  
+  If budget permits, invest in hardware that allows for **easy upgrades**, such as motherboards with extra RAM slots or support for additional drives.  
+
+---
+
+## Ready to Start?
+
+Once you’ve selected your hardware, you can move on to [OS Installation](#os-installation) to set up the foundation for your home lab. If you’d like more inspiration for services to run, check out [My Home Lab Setup](#my-home-lab-server-setup).
+
+---
+
+### Related Blogs
+- **[What is Self-Hosting?](#)**  
+  Learn the basics of self-hosting and its benefits.  
+- **[What is a Home Lab Server?](#)**  
+  Dive into hardware considerations and operating systems.
+
+---
